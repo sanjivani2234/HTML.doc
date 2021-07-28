@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cls {
+        height: 450px;
+        border: 1px solid silver;
+      }
+      #div1,
+      #div7 {
+        height: 100px;
+      }
+      #div2 {
+        background-attachment: fixed;
+        background-image: url("https://wallpapercave.com/wp/wp1855882.jpg");
+        background-size: 100%;
+      }
+      #div4 {
+        background-attachment: fixed;
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/767/881/90/ktm-helmet-motorcycle-canon-wallpaper-preview.jpg");
+        background-size: 100%;
+      }
+
+      #div6 {
+        background-attachment: fixed;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFJbBSi66OhrBDrXhRA4OBmvw0GMjf3SWcS7NVbQlvi6eJW-9SQMNAecx_uWJ8Fl2LwqA&usqp=CAU");
+        background-size: 100%;
+      }
+
+      li {
+        display: inline;
+        box-shadow: 1px 1px 3px orange;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+      }
+
+      #div3 {
+        background-color: gray;
+        background-image: linear-gradient(to bottom right, skyblue, grey);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cls" id="div1">
+      <ul>
+        <li>Home</li>
+        <li>Products</li>
+        <li>Abaout Us</li>
+        <li>Contact Us</li>
+        <li>Help</li>
+      </ul>
+    </div>
+    <div class="cls" id="div2"><h1>2</h1></div>
+    <div class="cls" id="div3"><h1>3</h1></div>
+    <div class="cls" id="div4"><h1>4</h1></div>
+    <div class="cls" id="div5"><h1>5</h1></div>
+    <div class="cls" id="div6"><h1>6</h1></div>
+    <div class="cls" id="div7"><h1>7</h1></div>
+  </body>
+</html>
